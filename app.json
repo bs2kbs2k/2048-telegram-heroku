@@ -1,0 +1,15 @@
+{
+  "name": "The2048Bot",
+  "description": "",
+  "image": "heroku/python",
+  "repository": "https://github.com/bs2kbs2k/2048-telegram-heroku",
+  "keywords": ["python", "2048", "telegram", "heroku"],
+  "addons": [],
+  "env": {
+    "BOT_TOKEN": {
+      "description": "The token for the telegram bot.",
+      "generator": "secret"
+    }
+  },
+  "environments": {}
+}
